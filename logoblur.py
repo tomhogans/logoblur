@@ -42,7 +42,7 @@ def alphaBlend(img1, img2, mask):
 # Loop over all images in given folder
 directory = sys.argv[1]
 for filename in os.listdir(directory):
-    if filename.endswith(".jpg"):
+    if filename.endswith((".jpg",".png")):
         fullPath = os.path.join(directory, filename)
 
         origImage = cv2.imread(fullPath)
