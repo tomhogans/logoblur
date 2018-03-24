@@ -70,7 +70,7 @@ for filename in os.listdir(directory):
         mask = cv2.GaussianBlur(mask, (11,11),11)
 
         processedImageB = processedImage.copy()
-        processedImageB = cv2.GaussianBlur(processedImageB, (59,59),11)
+        processedImageB = cv2.GaussianBlur(processedImageB, (109,109),51)
         if flip == 0:
             blended = alphaBlend(processedImage, processedImageB, mask);
         else:
