@@ -1,4 +1,4 @@
-# logo-blur
+# logoblur
 A python script for batch blurring of image logos/objects using OpenCV and template matching
 
 To use:
